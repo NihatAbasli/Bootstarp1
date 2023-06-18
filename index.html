@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <title>Bootstarp</title>
+</head>
+
+<body class="bg-dark text-white">
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark p-3">
+            <div class="container-fluid">
+                <div class="col-3 ps-5">
+                    <a class="navbar-brand text-white" href="#">Amazon</a>
+                </div>
+
+                <div class="col-7">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Product</a>
+                            </li>
+                    </div>
+                </div>
+
+                <div class="col-1">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Log In
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Log In</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <main>
+        <section id="Carusel">
+            <div class="container">
+                <div id="carouselExample" class="carousel slide pt-5 w-100">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cbs4indy.com/wp-content/uploads/sites/22/2018/10/s099651250.jpg?w=1280"
+                                class="d-block w-100" alt="..." style="height:550px;object-fit: cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/originals/ce/41/0e/ce410e1e1be6b990d0427a574c4f7f61.jpg"
+                                class="d-block w-100" alt="..." style="height:550px;object-fit: cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.gannett-cdn.com/-mm-/d51e273e945122e1e7a85df4ff7967d5d86cf3f9/c=0-5-2898-1643/local/-/media/2018/03/31/USATODAY/USATODAY/636580897736678142-AP-AMAZON-POST-OFFICE-SUNDAY-DELIVERY-59783706.JPG?width=2898&height=1638&fit=crop&format=pjpg&auto=webp"
+                                class="d-block w-100" alt="..." style="height:550px;object-fit: cover;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="Product" class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-12 pb-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://cooltechbiz.com/wp-content/uploads/2020/05/csm_MacBook_Pro_concept_white_2d8e43124c.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">MacBook Pro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#MacBook_Pro" class="btn btn-primary">Ətraflı...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 pb-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-09T165111.826_png.webp"
+                                style="width: 180px;margin: 0 auto;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Iphone 14 Pro Max</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ətraflı...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 pb-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://cdn.wccftech.com/wp-content/uploads/2020/03/iPad-Pro-2020.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ipad Pro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ətraflı...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 pb-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://www.somagnews.com/wp-content/uploads/2020/04/5-18-e1587309172934.jpg"
+                                style="height: 180px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Playstation 5</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ətraflı...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row2 -->
+
+                <div class="row pt-5">
+                    <div class="col-lg-3 col-sm-6 col-12 pb-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://cooltechbiz.com/wp-content/uploads/2020/05/csm_MacBook_Pro_concept_white_2d8e43124c.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">MacBook Pro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#MacBook_Pro" class="btn btn-primary">Ətraflı...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 pb-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://kontakt.az/wp-content/uploads/2022/09/New-Project-2022-09-09T165111.826_png.webp"
+                                style="width: 180px;margin: 0 auto;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Iphone 14 Pro Max</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ətraflı...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 pb-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://cdn.wccftech.com/wp-content/uploads/2020/03/iPad-Pro-2020.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ipad Pro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ətraflı...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 pb-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://www.somagnews.com/wp-content/uploads/2020/04/5-18-e1587309172934.jpg"
+                                style="height: 180px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Playstation 5</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ətraflı...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="MacBook_Pro" class="py-5 my-5">
+            <div class="container">
+                <div class="row py-5 my-5">
+                    <div class="col-xl-6 col-sm-12 pb-4">
+                        <img src="https://cooltechbiz.com/wp-content/uploads/2020/05/csm_MacBook_Pro_concept_white_2d8e43124c.jpg"
+                            alt="" style="width: 500px;border-radius: 15px;">
+                    </div>
+                    <div class="col-xl-6 col-md-12">
+                        <h1 class="text-white">MacBook Pro</h1>
+                        <p class="pt-3">Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a
+                            resolution of
+                            2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The
+                            Apple MacBook Pro packs 512GB of SSD storage.
+
+                            Connectivity options include Wi-Fi 802.11 ac, Bluetooth and it comes with 2 USB ports (2 x
+                            USB 3.0), Mic In ports.
+
+                            As of 17th June 2023, Apple MacBook Pro price in India starts at Rs. 159,900.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
